@@ -97,6 +97,12 @@ nav ul li {
   .list {
     color: white;
   }
+  .logo-list{
+    fill: white;
+  }
+  .logo-list li{
+    padding: 10px 20px;
+  }
   .list li{
     padding: 10px 12px;
   }
