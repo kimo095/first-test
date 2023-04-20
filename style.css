@@ -106,17 +106,41 @@ nav ul li {
   .list li{
     padding: 10px 12px;
   }
-  .svgS {
-    position:absolute;
-    display:inline-block;
-    width: 30px;
-    height:30px;
-    left:770px;
-    top:2px;
-  }
 svg{
     width: 20px;
     height:20px;
     left:265px;
     top:2px;
+}
+@media screen and (max-width:800px) {
+    .intro{
+        width: 400px;
+        height:200px;
+        align-items: center;
+    }
+    .styled-table {
+        border-collapse: collapse;
+        margin: 25px 0;
+        font-size: small;
+        font-family: sans-serif;
+        min-width: 200px;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+        padding-left: 20px;
+    }
+    .second-div h1{
+        font-size: small;
+    } 
+    nav ul li {
+        font-size: small;
+        display: block;
+        width: 100%;
+        margin: 12px 0;
+    }
+    .list ul li {
+        font-size: small;
+    }
+    nav img {
+        width: 40px;
+    }
+
 }
